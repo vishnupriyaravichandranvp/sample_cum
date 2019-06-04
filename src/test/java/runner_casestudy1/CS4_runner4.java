@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 	@RunWith(Cucumber.class)
 	@CucumberOptions(features="Feature_casestudy/cs3_example3.feature",glue="stepDefinition_casestudy",
-	plugin="html:c:\\cucumber-html-report")
+	plugin="json:target/cucumber1.json")
 public class CS4_runner4 {
 
 }
